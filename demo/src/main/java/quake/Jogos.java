@@ -51,7 +51,7 @@ public class Jogos {
 
     @Override
 	public String toString() {
-		return "Game [name=" + nome + ", totalKills=" + totalMortes + ", killsForPlayers=" + mortesJogador + "]";
+		return "Relatorio do: " + "\n" + nome + "\n" + " Tiveram: " + totalMortes + " mortes" + "\n" + " e os jogadores tiveram " + mortesJogador + " em abates"+ "\n";
 	}
 
 }
