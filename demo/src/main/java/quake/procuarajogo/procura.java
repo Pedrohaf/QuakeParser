@@ -11,7 +11,7 @@ import quake.Jogos;
 
 public class procura {
     public static void apiProcurar(List<Jogos> jogo, int x) throws IOException{
-        int n = 2;
+        int n = x;
         int cout = 0;
         for (Jogos game : jogo){
             cout++;
